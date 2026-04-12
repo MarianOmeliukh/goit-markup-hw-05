@@ -382,6 +382,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer-social-title {
@@ -394,11 +395,11 @@ img {
 }
 
 .footer-item-left {
-  margin-right: 120px;
+  margin-right: 0;
 }
 
 .footer-item-right {
-  margin-right: 80px;
+  margin-right: 0;
 }
 
 .footer-list {
@@ -452,7 +453,7 @@ img {
 .footer-subscribe {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
+  margin-left: 80px;
 }
 
 .subscribe-form {
