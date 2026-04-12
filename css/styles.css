@@ -697,7 +697,7 @@ img {
   outline: none;
 }
 
-.form-field:not(:last-child) {
+.form-field:not(:last-child):not(.checkbox-field) {
   margin-bottom: 8px;
 }
 
@@ -717,10 +717,6 @@ img {
   letter-spacing: 0.04em;
 
   color: #8e8f99;
-}
-
-.modal-title {
-  margin-bottom: 16px;
 }
 
 .custom-checkbox {
@@ -760,7 +756,7 @@ img {
 
 .modal-submit-btn {
   display: block;
-  margin-top: 24px;
+  margin: 24px auto 0;
 
   padding: 16px 32px;
   background: #4d5ae5;
